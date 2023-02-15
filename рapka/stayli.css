@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #b82504,#f29021,#b82504);
+    height: 400px;;
+    padding-top: 20px;
+}
+header.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+header .katta{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    background-color: aliceblue;
+    width: 1200px;
+    
+}
+header .katta ul{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 30px;
+    /* margin-left: 180px; */
+  
+}
+header h1{
+    margin-top: 20px;
+}
+header ul li a{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 80px;
+}
+header ul li a:hover{
+    color: #b82504;
+}
+header #bir{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(203, 202, 202);
+    width: 1200px;
+    height: 280px;
+    padding-top: 10px;
+    margin-bottom: 350px;
+}
+main .container{
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+main .katta{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+   align-items: center;
+   
+
+}
+main h3{
+    color: black;
+    font-size: 15px;
+    opacity: 0.8;
+   padding-bottom: 10px;
+   text-align: center;
+   
+}
+main img {
+    width: 150px;
+    
+   
+}
+main button{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border:rgb(203, 202, 202);
+    margin-top:10px;
+}
+main .a{
+    border-right: 2px solid gray; 
+ 
+}
+main .div{
+    display: flex;
+    padding-top: 30px;
+}
+main .k{
+    width: 600px;
+}
+main .l{
+    width: 350px;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+
+main .f{
+    display: flex; 
+    justify-content: space-between;
+    width: 350px;
+   
+}
+main .k, h4 {
+    padding-bottom: 10px;
+}
+main .k, h5{
+    padding-bottom: 15px;
+} 
+main .k, p{
+    font-size: 15px;
+    opacity: 0.7;
+}
+main span{
+    border-bottom: 2px solid red;
+    color: red;
+}
+main .f img {
+    width: 85px;
+    height: 85px;
+    padding-bottom: 5px ;
+}
+
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    height: 200px;
+      
+   }
+footer .container{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-left: 170px;
+}
+footer .katta{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer button{
+    background-color:aqua;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/* respone beramiz */
+@media(max-width: 991px){
+    header {
+        max-width: 800px;
+        height: 300px;
+                
+    }
+    header h1{
+        font-size: 20px;
+    }
+ header .katta{
+    background-color: aliceblue;
+    width: 800px;
+  
+
+}
+header .katta ul{
+display: flex;
+justify-content: space-between;
+width: 620px;
+}
+header #bir{
+    font-size: 30px;
+}
+main{
+    max-width: 800px;
+}
+main .container{
+    max-width: 800px;
+}
+main .katta{
+    max-width: 800px;
+}
+main .a{
+    max-width: 150px;
+}
+footer{
+    max-width: 800px;
+}
+}
+@media(max-width: 768px){
+    header {
+        max-width:660px;
+        height: 300px;
+                
+    }
+    header h1{
+        font-size: 30px;
+    }
+ header .katta{
+    background-color: aliceblue;
+    width: 660px;
+  
+
+}
+header .katta ul{
+    
+display: none;
+
+}
+header i{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+header #bir{
+    font-size: 40px;
+}
+main{
+    max-width: 660px;
+}
+main .container{
+    max-width: 660px;
+}
+main .katta{
+    max-width: 660px;
+}
+main .a{
+    max-width: 90px;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+main img{
+    width: 110px;
+    height: 70px;
+    padding-right: 40px;
+}
+main button{
+    width: 60px;
+    height: 40px;
+    font-size: 10px;
+}
+footer{
+    max-width: 660px;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+}
+@media(max-width: 576px){
+    header {
+        max-width:576px;
+        height: 450px;
+        padding-bottom: 50px;
+                
+    }
+    header h1{
+        font-size: 30px;
+    }
+ header .katta{
+    background-color: aliceblue;
+    width: 576px;
+  
+
+}
+header .katta ul{
+    
+display: none;
+
+}
+header i{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+header #bir{
+    font-size: 40px;
+}
+main{
+    max-width: 576px;
+    height: 700px;
+    padding-top: 50px;
+}
+main .container{
+    max-width: 576px;
+}
+main .katta {
+    max-width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px;
+    gap:10px;
+   
+   
+  
+}
+main .a{
+    max-width: 250px;
+    height: 460px;
+    margin-top: 100px;
+   
+}
+main img{
+    width: 250px;
+    height: 200px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+   
+}
+main h3{
+    font-size: 20px;
+    margin-top: 50px;
+}
+main button{
+    width: 90px;
+    height: 40px;
+    font-size: 10px;
+       padding-top: 10px;
+       margin-bottom: 50px;
+       align-items: center;
+       margin-left: 50px;
+    
+}
+main .div{
+   
+    display:flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px;
+    gap:10px; */
+    padding-top: 120px;
+    padding-bottom: 50px;
+    height: 500px;
+   
+  
+}
+main .div img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    max-width: 576px;
+    height: 500px;
+    padding-top: 30px;
+    padding-right: 100px;
+    margin-top: 980px;
+}
+footer .katta{
+    display:flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px;
+    gap:10px; */
+    padding-top: 120px;
+    padding-bottom: 50px;
+    height: 300px;
+   
+  
+}
+
+}
